@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: rgb(203, 134, 134);
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+
+.container {
+    max-width: 80rem;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Project Responsive */
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+      max-width: 80rem;
+    }
+  }
+  
+  
+  
+  @media only screen and (max-width: 992px) {
+    .container {
+      max-width: 80rem;
+    }
+  }
+  
+  
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      max-width: 650px;
+    }
+  }
+  
+  
+  
+  @media only screen and (max-width: 576px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+
